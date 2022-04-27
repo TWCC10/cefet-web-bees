@@ -18,6 +18,7 @@ p.curiosidade{
     background-image: url(imgs/favo-de-mel.png);
     border-radius: 10px;
     border: solid 1px #fbb732;
+    clear: both;
 }
 p.curiosidade img {
     float: left;
@@ -39,4 +40,19 @@ img.esquerda{
     padding: 30px;
     background-color: rgba(255,255,255,0.3);
     box-shadow: 4px 4px 4px #0003
+}
+a:hover {
+
+    color: grey;
+    text-decoration: none;
+
+}
+a[href^="http"] {
+    background-color: rgb(58, 242, 248);
+}
+p:last-of-type{
+    text-align: right;
+}
+img:not([alt]){
+    border-color: red;
 }
